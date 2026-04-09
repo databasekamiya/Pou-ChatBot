@@ -46,7 +46,7 @@ async function sendMessage() {
     const typing = createTyping();
 
     try {
-        const res = await fetch("https://zeppeliorg.jserver.web.id:2009/chat", {
+        const res = await fetch("http://zeppeliorg.jserver.web.id:2009/chat", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
